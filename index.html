@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open UV</title>
+    <link rel ="stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = 'content'>
+        <div id = 'info'>
+            <h1>What is UV radiation?</h1>
+            Ultraviolet (UV) radiation is a form of electromagnetic radiation that comes from the sun and man-made sources like tanning beds and welding torches.
+            Radiation is the emission (sending out) of energy from any source. There are many types of radiation, ranging from very high-energy (high-frequency) 
+            radiation – like x-rays and gamma rays – to very low-energy (low-frequency) radiation – like radio waves. UV rays are in the middle of this spectrum. 
+            They have more energy than visible light, but not as much as x-rays.
+            <p>
+                Exposure to UV rays can cause premature aging of the skin and signs of sun damage such as wrinkles, leathery skin, liver spots, actinic keratosis, 
+                and solar elastosis. UV rays can also cause eye problems. They can cause the cornea (on the front of the eye) to become inflamed or burned.
+            </p>
+        </div>
+        <div id = 'searchArea'>
+            
+            <h2>Enter youe location by coordinates</h2>
+            Latitude: <input type="text" id = 'lat'>
+            <br>
+            Longitude: <input type="text" id = 'lng'>
+            <br><br>
+            OR
+            <br><br>
+            Don't know your lat & lng? Enter your zip code:
+            <input type="number" id = 'zip'>
+            <br><br>
+            <button id = 'btn'>Test my UV / show my coordinates</button>
+
+        </div>
+
+        <div id = 'city'></div>
+        <div id = 'result'>
+            
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
